@@ -1,6 +1,4 @@
-STDOUT
-input_lines = gets.to_s.chomp
-puts input_lines
+input_lines = STDIN.gets.to_s.chomp
 count = input_lines.length
 
 (count+2).times{

@@ -1,4 +1,4 @@
-STDOUT
+
 input_lines = gets.split(" ").map(&:to_i)
 group = input_lines[1] #組数
 
